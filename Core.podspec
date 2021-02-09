@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Core"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Core Framework For SpaceLaunches Project"
   spec.homepage     = "https://github.com/mryusuf/space-launches-core"
 
@@ -54,6 +54,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   spec.dependency "Alamofire"
+  spec.dependency "Realm"
   spec.dependency "RealmSwift"
   spec.swift_version = "5.3"
 
